@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="1" failed="0" total="12" passed="11">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="303404" started-at="2018-05-30T14:38:40Z" finished-at="2018-05-30T14:43:43Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="303404" started-at="2018-05-30T14:38:40Z" finished-at="2018-05-30T14:43:43Z">
+      <class name="login.ExtentReport">
+        <test-method status="PASS" signature="startTest()[pri:0, instance:login.ExtentReport@4b9e13df]" test-instance-name="" name="startTest" is-config="true" duration-ms="189" started-at="2018-05-30T20:08:40Z" finished-at="2018-05-30T20:08:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method status="PASS" signature="beforeclass()[pri:0, instance:login.ExtentReport@4b9e13df]" test-instance-name="" name="beforeclass" is-config="true" duration-ms="9531" started-at="2018-05-30T20:08:40Z" finished-at="2018-05-30T20:08:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeclass -->
+        <test-method status="PASS" signature="pageTitleTest()[pri:1, instance:login.ExtentReport@4b9e13df]" test-instance-name="" name="pageTitleTest" duration-ms="20" started-at="2018-05-30T20:08:49Z" finished-at="2018-05-30T20:08:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageTitleTest -->
+        <test-method status="PASS" signature="setTestResult(org.testng.ITestResult)[pri:0, instance:login.ExtentReport@4b9e13df]" test-instance-name="" name="setTestResult" is-config="true" duration-ms="714" started-at="2018-05-30T20:08:49Z" finished-at="2018-05-30T20:08:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name="" status=SUCCESS method=ExtentReport.pageTitleTest()[pri:1, instance:login.ExtentReport@4b9e13df] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setTestResult -->
+        <test-method status="SKIP" signature="loginTest(java.lang.String, java.lang.String)[pri:2, instance:login.ExtentReport@4b9e13df]" test-instance-name="" name="loginTest" duration-ms="0" started-at="2018-05-30T20:08:50Z" data-provider="getData" finished-at="2018-05-30T20:08:50Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Data Provider public java.lang.Object login.ExtentReport.getData() must return either Object[][] or Iterator<Object>[], not class java.lang.Object]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Data Provider public java.lang.Object login.ExtentReport.getData() must return either Object[][] or Iterator<Object>[], not class java.lang.Object
+	at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:157)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:430)
+	at org.testng.internal.Invoker.handleParameters(Invoker.java:1274)
+	at org.testng.internal.Invoker.createParameters(Invoker.java:989)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1079)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="beforeclass()[pri:0, instance:login.ExtentReport@4b9e13df]" test-instance-name="" name="beforeclass" is-config="true" duration-ms="9304" started-at="2018-05-30T20:08:50Z" finished-at="2018-05-30T20:08:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeclass -->
+        <test-method status="PASS" signature="automatedjob()[pri:3, instance:login.ExtentReport@4b9e13df]" test-instance-name="" name="automatedjob" duration-ms="17368" started-at="2018-05-30T20:08:59Z" finished-at="2018-05-30T20:09:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- automatedjob -->
+        <test-method status="PASS" signature="setTestResult(org.testng.ITestResult)[pri:0, instance:login.ExtentReport@4b9e13df]" test-instance-name="" name="setTestResult" is-config="true" duration-ms="352" started-at="2018-05-30T20:09:17Z" finished-at="2018-05-30T20:09:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name="" status=SUCCESS method=ExtentReport.automatedjob()[pri:3, instance:login.ExtentReport@4b9e13df] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setTestResult -->
+        <test-method status="PASS" signature="beforeclass()[pri:0, instance:login.ExtentReport@4b9e13df]" test-instance-name="" name="beforeclass" is-config="true" duration-ms="9698" started-at="2018-05-30T20:09:17Z" finished-at="2018-05-30T20:09:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeclass -->
+        <test-method status="PASS" signature="manualjob()[pri:4, instance:login.ExtentReport@4b9e13df]" test-instance-name="" name="manualjob" duration-ms="21532" started-at="2018-05-30T20:09:27Z" finished-at="2018-05-30T20:09:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- manualjob -->
+        <test-method status="PASS" signature="setTestResult(org.testng.ITestResult)[pri:0, instance:login.ExtentReport@4b9e13df]" test-instance-name="" name="setTestResult" is-config="true" duration-ms="259" started-at="2018-05-30T20:09:48Z" finished-at="2018-05-30T20:09:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name="" status=SUCCESS method=ExtentReport.manualjob()[pri:4, instance:login.ExtentReport@4b9e13df] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setTestResult -->
+        <test-method status="PASS" signature="beforeclass()[pri:0, instance:login.ExtentReport@4b9e13df]" test-instance-name="" name="beforeclass" is-config="true" duration-ms="9616" started-at="2018-05-30T20:09:49Z" finished-at="2018-05-30T20:09:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeclass -->
+        <test-method status="PASS" signature="ProcessJob()[pri:5, instance:login.ExtentReport@4b9e13df]" test-instance-name="" name="ProcessJob" duration-ms="33622" started-at="2018-05-30T20:09:58Z" finished-at="2018-05-30T20:10:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProcessJob -->
+        <test-method status="PASS" signature="setTestResult(org.testng.ITestResult)[pri:0, instance:login.ExtentReport@4b9e13df]" test-instance-name="" name="setTestResult" is-config="true" duration-ms="412" started-at="2018-05-30T20:10:32Z" finished-at="2018-05-30T20:10:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name="" status=SUCCESS method=ExtentReport.ProcessJob()[pri:5, instance:login.ExtentReport@4b9e13df] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setTestResult -->
+        <test-method status="PASS" signature="beforeclass()[pri:0, instance:login.ExtentReport@4b9e13df]" test-instance-name="" name="beforeclass" is-config="true" duration-ms="10301" started-at="2018-05-30T20:10:32Z" finished-at="2018-05-30T20:10:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeclass -->
+        <test-method status="PASS" signature="openjobannotatedtab()[pri:6, instance:login.ExtentReport@4b9e13df]" test-instance-name="" name="openjobannotatedtab" duration-ms="21320" started-at="2018-05-30T20:10:42Z" finished-at="2018-05-30T20:11:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openjobannotatedtab -->
+        <test-method status="PASS" signature="setTestResult(org.testng.ITestResult)[pri:0, instance:login.ExtentReport@4b9e13df]" test-instance-name="" name="setTestResult" is-config="true" duration-ms="367" started-at="2018-05-30T20:11:04Z" finished-at="2018-05-30T20:11:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name="" status=SUCCESS method=ExtentReport.openjobannotatedtab()[pri:6, instance:login.ExtentReport@4b9e13df] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setTestResult -->
+        <test-method status="PASS" signature="beforeclass()[pri:0, instance:login.ExtentReport@4b9e13df]" test-instance-name="" name="beforeclass" is-config="true" duration-ms="10914" started-at="2018-05-30T20:11:04Z" finished-at="2018-05-30T20:11:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeclass -->
+        <test-method status="PASS" signature="openjobtobeannotatedtab()[pri:7, instance:login.ExtentReport@4b9e13df]" test-instance-name="" name="openjobtobeannotatedtab" duration-ms="48918" started-at="2018-05-30T20:11:15Z" finished-at="2018-05-30T20:12:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openjobtobeannotatedtab -->
+        <test-method status="PASS" signature="setTestResult(org.testng.ITestResult)[pri:0, instance:login.ExtentReport@4b9e13df]" test-instance-name="" name="setTestResult" is-config="true" duration-ms="356" started-at="2018-05-30T20:12:04Z" finished-at="2018-05-30T20:12:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name="" status=SUCCESS method=ExtentReport.openjobtobeannotatedtab()[pri:7, instance:login.ExtentReport@4b9e13df] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setTestResult -->
+        <test-method status="PASS" signature="beforeclass()[pri:0, instance:login.ExtentReport@4b9e13df]" test-instance-name="" name="beforeclass" is-config="true" duration-ms="9610" started-at="2018-05-30T20:12:04Z" finished-at="2018-05-30T20:12:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeclass -->
+        <test-method status="PASS" signature="trackjob()[pri:8, instance:login.ExtentReport@4b9e13df]" test-instance-name="" name="trackjob" duration-ms="12170" started-at="2018-05-30T20:12:14Z" finished-at="2018-05-30T20:12:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- trackjob -->
+        <test-method status="PASS" signature="setTestResult(org.testng.ITestResult)[pri:0, instance:login.ExtentReport@4b9e13df]" test-instance-name="" name="setTestResult" is-config="true" duration-ms="336" started-at="2018-05-30T20:12:26Z" finished-at="2018-05-30T20:12:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name="" status=SUCCESS method=ExtentReport.trackjob()[pri:8, instance:login.ExtentReport@4b9e13df] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setTestResult -->
+        <test-method status="PASS" signature="beforeclass()[pri:0, instance:login.ExtentReport@4b9e13df]" test-instance-name="" name="beforeclass" is-config="true" duration-ms="10464" started-at="2018-05-30T20:12:26Z" finished-at="2018-05-30T20:12:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeclass -->
+        <test-method status="PASS" signature="downloadtracker()[pri:9, instance:login.ExtentReport@4b9e13df]" test-instance-name="" name="downloadtracker" duration-ms="12155" started-at="2018-05-30T20:12:37Z" finished-at="2018-05-30T20:12:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- downloadtracker -->
+        <test-method status="PASS" signature="setTestResult(org.testng.ITestResult)[pri:0, instance:login.ExtentReport@4b9e13df]" test-instance-name="" name="setTestResult" is-config="true" duration-ms="235" started-at="2018-05-30T20:12:49Z" finished-at="2018-05-30T20:12:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name="" status=SUCCESS method=ExtentReport.downloadtracker()[pri:9, instance:login.ExtentReport@4b9e13df] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setTestResult -->
+        <test-method status="PASS" signature="beforeclass()[pri:0, instance:login.ExtentReport@4b9e13df]" test-instance-name="" name="beforeclass" is-config="true" duration-ms="9870" started-at="2018-05-30T20:12:49Z" finished-at="2018-05-30T20:12:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeclass -->
+        <test-method status="PASS" signature="deletejob()[pri:10, instance:login.ExtentReport@4b9e13df]" test-instance-name="" name="deletejob" duration-ms="14260" started-at="2018-05-30T20:12:59Z" finished-at="2018-05-30T20:13:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deletejob -->
+        <test-method status="PASS" signature="setTestResult(org.testng.ITestResult)[pri:0, instance:login.ExtentReport@4b9e13df]" test-instance-name="" name="setTestResult" is-config="true" duration-ms="328" started-at="2018-05-30T20:13:13Z" finished-at="2018-05-30T20:13:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name="" status=SUCCESS method=ExtentReport.deletejob()[pri:10, instance:login.ExtentReport@4b9e13df] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setTestResult -->
+        <test-method status="PASS" signature="beforeclass()[pri:0, instance:login.ExtentReport@4b9e13df]" test-instance-name="" name="beforeclass" is-config="true" duration-ms="10829" started-at="2018-05-30T20:13:14Z" finished-at="2018-05-30T20:13:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeclass -->
+        <test-method status="PASS" signature="refreshjob()[pri:11, instance:login.ExtentReport@4b9e13df]" test-instance-name="" name="refreshjob" duration-ms="5118" started-at="2018-05-30T20:13:25Z" finished-at="2018-05-30T20:13:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- refreshjob -->
+        <test-method status="PASS" signature="setTestResult(org.testng.ITestResult)[pri:0, instance:login.ExtentReport@4b9e13df]" test-instance-name="" name="setTestResult" is-config="true" duration-ms="306" started-at="2018-05-30T20:13:30Z" finished-at="2018-05-30T20:13:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name="" status=SUCCESS method=ExtentReport.refreshjob()[pri:11, instance:login.ExtentReport@4b9e13df] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setTestResult -->
+        <test-method status="PASS" signature="beforeclass()[pri:0, instance:login.ExtentReport@4b9e13df]" test-instance-name="" name="beforeclass" is-config="true" duration-ms="9404" started-at="2018-05-30T20:13:30Z" finished-at="2018-05-30T20:13:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeclass -->
+        <test-method status="PASS" signature="logoutTest()[pri:12, instance:login.ExtentReport@4b9e13df]" test-instance-name="" name="logoutTest" duration-ms="3018" started-at="2018-05-30T20:13:39Z" finished-at="2018-05-30T20:13:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutTest -->
+        <test-method status="PASS" signature="setTestResult(org.testng.ITestResult)[pri:0, instance:login.ExtentReport@4b9e13df]" test-instance-name="" name="setTestResult" is-config="true" duration-ms="378" started-at="2018-05-30T20:13:42Z" finished-at="2018-05-30T20:13:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name="" status=SUCCESS method=ExtentReport.logoutTest()[pri:12, instance:login.ExtentReport@4b9e13df] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setTestResult -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:login.ExtentReport@4b9e13df]" test-instance-name="" name="endTest" is-config="true" duration-ms="89" started-at="2018-05-30T20:13:43Z" finished-at="2018-05-30T20:13:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- login.ExtentReport -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

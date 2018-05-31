@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="lib" path="/home/synerzip/Selenium/Jar/selenium-java-3.8.1/httpcore-4.4.6.jar"/>
+	<classpathentry kind="lib" path="/home/synerzip/Selenium/Jar/selenium-java-3.8.1/httpclient-4.5.3.jar"/>
+	<classpathentry kind="lib" path="/home/synerzip/Selenium/Jar/selenium-java-3.8.1/guava-23.0.jar"/>
+	<classpathentry kind="lib" path="/home/synerzip/Selenium/Jar/selenium-java-3.8.1/gson-2.8.2.jar"/>
+	<classpathentry kind="lib" path="/home/synerzip/Selenium/Jar/selenium-java-3.8.1/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="/home/synerzip/Selenium/Jar/selenium-java-3.8.1/commons-exec-1.3.jar"/>
+	<classpathentry kind="lib" path="/home/synerzip/Selenium/Jar/selenium-java-3.8.1/commons-codec-1.10.jar"/>
+	<classpathentry kind="lib" path="/home/synerzip/Selenium/Jar/selenium-java-3.8.1/client-combined-3.8.1-sources.jar"/>
+	<classpathentry kind="lib" path="/home/synerzip/Selenium/Jar/selenium-java-3.8.1/client-combined-3.8.1.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="http://seleniumhq.github.io/selenium/docs/api/java/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/synerzip/Selenium/Jar/selenium-java-3.8.1/byte-buddy-1.7.5.jar"/>
+	<classpathentry kind="lib" path="/home/synerzip/Selenium/Jar/extentreports-java-3.1.3/extentreports-3.1.3.jar"/>
+	<classpathentry kind="lib" path="/home/synerzip/Selenium/Jar/extentreports-java-3.1.3/lib/testng-6.9.10.jar"/>
+	<classpathentry kind="lib" path="/home/synerzip/Selenium/Jar/extentreports-java-3.1.3/lib/mongodb-driver-core-3.3.0.jar"/>
+	<classpathentry kind="lib" path="/home/synerzip/Selenium/Jar/extentreports-java-3.1.3/lib/mongodb-driver-3.3.0.jar"/>
+	<classpathentry kind="lib" path="/home/synerzip/Selenium/Jar/extentreports-java-3.1.3/lib/jsoup-1.9.2.jar"/>
+	<classpathentry kind="lib" path="/home/synerzip/Selenium/Jar/extentreports-java-3.1.3/lib/jcommander-1.48.jar"/>
+	<classpathentry kind="lib" path="/home/synerzip/Selenium/Jar/extentreports-java-3.1.3/lib/httpmime-4.5.2.jar"/>
+	<classpathentry kind="lib" path="/home/synerzip/Selenium/Jar/extentreports-java-3.1.3/lib/httpcore-4.4.4.jar"/>
+	<classpathentry kind="lib" path="/home/synerzip/Selenium/Jar/extentreports-java-3.1.3/lib/httpclient-4.5.2.jar"/>
+	<classpathentry kind="lib" path="/home/synerzip/Selenium/Jar/extentreports-java-3.1.3/lib/gson-2.8.0.jar"/>
+	<classpathentry kind="lib" path="/home/synerzip/Selenium/Jar/extentreports-java-3.1.3/lib/freemarker-2.3.23.jar"/>
+	<classpathentry kind="lib" path="/home/synerzip/Selenium/Jar/extentreports-java-3.1.3/lib/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="/home/synerzip/Selenium/Jar/extentreports-java-3.1.3/lib/commons-codec-1.9.jar"/>
+	<classpathentry kind="lib" path="/home/synerzip/Selenium/Jar/extentreports-java-3.1.3/lib/bson-3.3.0.jar"/>
+	<classpathentry kind="lib" path="/home/synerzip/Selenium/Jar/extentreports-java-3.1.3/lib/bsh-2.0b4.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
