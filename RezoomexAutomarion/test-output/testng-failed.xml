@@ -16,7 +16,6 @@
           <include name="startTest"/>
           <include name="loginTest"/>
           <include name="endTest"/>
-          <include name="manualjob"/>
         </methods>
       </class> <!-- login.ExtentReport -->
     </classes>
